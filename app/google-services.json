@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "423780037342",
+    "firebase_url": "https://android-5273c.firebaseio.com",
+    "project_id": "android-5273c",
+    "storage_bucket": "android-5273c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423780037342:android:c26e3773d0537913",
+        "android_client_info": {
+          "package_name": "com.aljouharji.obdachlosenhilfe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423780037342-o9anfc7kear59fed73i05mgdahb9cv5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aljouharji.obdachlosenhilfe",
+            "certificate_hash": "e360d8760f0fcc49feaf68995fb5f921e81bfab1"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVaS6TfLFfWw4q8QesNamIJqeBZ6yz_gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423780037342-hs8r53acco4235rdp6tuuckonhccvl4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

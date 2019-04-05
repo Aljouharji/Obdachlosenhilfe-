@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/info1"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="15dp"
+        android:text="Info"
+        app:layout_constraintBottom_toTopOf="@+id/info2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/plz1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <Button
+        android:id="@+id/info2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="15dp"
+        android:text="Info"
+        app:layout_constraintBottom_toTopOf="@+id/info3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/plz2"
+        app:layout_constraintTop_toBottomOf="@+id/info1" />
+
+    <Button
+        android:id="@+id/info3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="15dp"
+        android:text="Info"
+        app:layout_constraintBottom_toTopOf="@+id/info4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/plz3"
+        app:layout_constraintTop_toBottomOf="@+id/info2" />
+
+    <TextView
+        android:id="@+id/plz4"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/aktuell"
+        app:layout_constraintEnd_toStartOf="@+id/info4"
+        app:layout_constraintStart_toEndOf="@+id/mahl4"
+        app:layout_constraintTop_toBottomOf="@+id/plz3" />
+
+    <TextView
+        android:id="@+id/plz3"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/plz4"
+        app:layout_constraintEnd_toStartOf="@+id/info3"
+        app:layout_constraintStart_toEndOf="@+id/mahl3"
+        app:layout_constraintTop_toBottomOf="@+id/plz2" />
+
+    <TextView
+        android:id="@+id/plz2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/plz3"
+        app:layout_constraintEnd_toStartOf="@+id/info2"
+        app:layout_constraintStart_toEndOf="@+id/mahl2"
+        app:layout_constraintTop_toBottomOf="@+id/plz1" />
+
+    <TextView
+        android:id="@+id/mahl2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/mahl3"
+        app:layout_constraintEnd_toStartOf="@+id/plz2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mahl1" />
+
+    <TextView
+        android:id="@+id/mahl3"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/mahl4"
+        app:layout_constraintEnd_toStartOf="@+id/plz3"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mahl2" />
+
+    <TextView
+        android:id="@+id/mahl4"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/aktuell"
+        app:layout_constraintEnd_toStartOf="@+id/plz4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mahl3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginRight="123dp"
+        android:layout_marginBottom="15dp"
+        android:text="PLZ"
+        app:layout_constraintBottom_toTopOf="@+id/plz1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/aktuell"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="50dp"
+        android:text="Aktuell"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plz4" />
+
+    <TextView
+        android:id="@+id/mahl1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/mahl2"
+        app:layout_constraintEnd_toStartOf="@+id/plz1"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/plz1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/plz2"
+        app:layout_constraintEnd_toStartOf="@+id/info1"
+        app:layout_constraintStart_toEndOf="@+id/mahl1"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Mähler"
+        app:layout_constraintBottom_toTopOf="@+id/mahl1"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/info4"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="80dp"
+        android:text="Info"
+        app:layout_constraintBottom_toTopOf="@+id/aktuell"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/plz4"
+        app:layout_constraintTop_toBottomOf="@+id/info3" />
+
+</android.support.constraint.ConstraintLayout>
